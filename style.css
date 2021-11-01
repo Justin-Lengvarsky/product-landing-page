@@ -14,10 +14,7 @@ padding: 0px;
 main{
 min-height: 100vh;
 font-family: "Lato", sans-serif;
-background-color: #E3E1C5;
-background: -moz-radial-gradient(center, #E3E1C5 0%, #A5B391 100%);
-background: -webkit-radial-gradient(center, #E3E1C5 0%, #A5B391 100%);
-background: radial-gradient(ellipse at center, #E3E1C5 0%, #A5B391 100%);
+
 }
 
 body{
