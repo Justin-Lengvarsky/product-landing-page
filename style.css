@@ -1,0 +1,128 @@
+<style>
+
+html{
+  width:100%;
+  height:auto;
+}
+
+main{
+
+font-family: "Lato", sans-serif;
+background-color: #E3E1C5;
+background: -moz-radial-gradient(center, #E3E1C5 0%, #A5B391 100%);
+background: -webkit-radial-gradient(center, #E3E1C5 0%, #A5B391 100%);
+background: radial-gradient(ellipse at center, #E3E1C5 0%, #A5B391 100%);
+}
+
+body{
+  margin-top: 75px;
+display: flex;
+width: 100%;
+height: 100%;
+position: relative; 
+}
+
+#header-img{
+align-items: left;
+display: flex;
+background-color:rgb(77,166,255);
+  
+}
+
+header{
+position:fixed;
+display: flex;
+  align-items:center;
+  max-height: 100px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(77,166,255);
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  padding: 1em;
+}
+
+#all-cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+}
+
+.card{
+border-radius: 25px;
+background: rgba(15,15,15,0.2);
+padding: 20px; 
+width: 200px;
+height: 250px;
+border: 11px inset #1C6EA4;
+margin: 20px 45px 35px 50px;
+}
+
+.card-button{
+  text-align: center;
+}
+
+@Media (max-width:500px;){
+body{
+flex-wrap: wrap;
+	}
+}
+
+#how-its-made{
+display: flex;
+justify-content: center;
+
+}
+
+nav{
+display: flex;
+  position: fixed;
+  justify-content: right;
+  align-items: right;
+  margin-left: 1121px;
+  text-align: right;
+
+}
+
+h2{
+text-align: center;
+
+}
+
+#sign-up{
+margin: 60px;
+float: center;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+
+form{
+justify-content: center;
+float: center;
+align-item: center;
+}
+
+#email{
+width: 200px;
+height: 20px;
+}
+
+footer{
+ margin-top: auto;
+  bottom:0;
+  width: 100%;
+  height: 2rem;            
+  background: grey;
+  text-align: right;
+  align-items: center;
+}
+
+h1{
+text-align: center;
+color: 004080;
+}
+
+</style>
