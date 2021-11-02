@@ -1,4 +1,4 @@
-Technical Documentation Page (freeCodeCamp)
+Product Landing Page (freeCodeCamp)
 -------------------------------------------
 
 
